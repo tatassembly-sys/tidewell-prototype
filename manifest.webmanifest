@@ -1,0 +1,23 @@
+{
+  "name": "Tidewell Kitchen",
+  "short_name": "Tidewell",
+  "description": "Fresh, dietitian-reviewed lunch and dinner for smaller appetites in Brighton & Hove. Delivered hot, or eat with us.",
+  "id": "./",
+  "start_url": "./#/",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FBF6EC",
+  "theme_color": "#1F5F7A",
+  "lang": "en-GB",
+  "categories": ["food", "lifestyle"],
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "This week’s menu", "url": "./#/menu" },
+    { "name": "Sign in", "url": "./#/login" }
+  ]
+}
